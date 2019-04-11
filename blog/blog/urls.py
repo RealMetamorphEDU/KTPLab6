@@ -18,7 +18,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', views.archive, name='home'),
+    url(r'^$', views.archive, name='archive'),
     url(r'^admin/', admin.site.urls),
     url(r'^article/(?P<article_id>\d+)/$', views.get_article, name='get_article'),
     url(r'^article/new/', views.create_post, name='create_post'),

@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5716d817-7d2c-417f-8a86-c0cfca0672c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/andrt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/static/css/article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/static/img/dpb-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/templates/archive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/templates/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/templates/create_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/articles/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blog/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blog/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/db_blog.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db_blog.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db_blog.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +13,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/articles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+            <state relative-caret-position="356">
+              <caret line="98" column="42" lean-forward="true" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -60,12 +39,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/articles/templates/auth.html" />
-        <option value="$PROJECT_DIR$/blog/articles/templates/registration.html" />
         <option value="$PROJECT_DIR$/../lab6-master/blog/articles/views.py" />
-        <option value="$PROJECT_DIR$/blog/articles/views.py" />
-        <option value="$PROJECT_DIR$/blog/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/articles/templates/archive.html" />
+        <option value="$PROJECT_DIR$/blog/articles/templates/registration.html" />
+        <option value="$PROJECT_DIR$/blog/articles/templates/auth.html" />
+        <option value="$PROJECT_DIR$/blog/blog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/articles/views.py" />
       </list>
     </option>
   </component>
@@ -173,15 +152,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554999857580</updated>
-      <workItem from="1554999859930" duration="1982000" />
+      <workItem from="1554999859930" duration="3479000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1555002108228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555002108228</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init 2">
+      <created>1555002838487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555002838487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1982000" />
+    <option name="totallyTimeSpent" value="3479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -217,28 +212,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="init 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/articles/templates/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/articles/templates/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/articles/templates/create_post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../lab6-master/blog/articles/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -253,16 +232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="74" selection-start-line="19" selection-start-column="12" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#638#664#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -288,10 +257,41 @@
         <state relative-caret-position="-18" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/articles/templates/create_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/articles/templates/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/articles/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#638#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/articles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        <state relative-caret-position="356">
+          <caret line="98" column="42" lean-forward="true" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
