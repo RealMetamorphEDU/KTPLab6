@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
+from django.contrib.auth.hashers import make_password, check_password
 from django.http import Http404
 from django.shortcuts import render, redirect
 
@@ -71,7 +72,7 @@ def create_user(request):
         if form["username"] and form["mail"] and form["password"] and usr is None:
             usr = User.objects.create(username=form["username"],
                                       email=form["mail"],
-                                      password=form["password"])
+                                      password=make_password(form["password"]))
             return redirect('archive')
         else:
             if usr is not None:
